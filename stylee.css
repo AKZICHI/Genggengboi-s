@@ -1,0 +1,34 @@
+body {
+    background-color: #483c32;
+}
+.title {
+    color: black;
+    position: fixed;
+    margin-top: 5%;
+    margin-left: 45%;
+    font-size: 50px;
+    background-color: #FFECD1;
+    
+
+}
+.text, .Enter, .password {
+    position: absolute;
+    top: 20vh;
+    left: 80vh;
+    font-size: 30px;
+    background-color: #FFECD1;
+}
+.password {
+    top: 25vh;
+}
+.Enter {
+    top: 30vh;
+}
+.image-container {
+    position: relative;
+    z-index: -1;
+}
+.img {
+    width: 100%;
+    height: auto;
+}
